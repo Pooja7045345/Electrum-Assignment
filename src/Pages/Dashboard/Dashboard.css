@@ -1,0 +1,91 @@
+
+.dashboard {
+	width: 100%;
+	height: 60px;
+	background: #229b9f;
+	border-radius: 15px;
+	display: flex;
+	padding: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.other {
+	width: 239px;
+	height: 60px;
+	border-radius: 15px;
+	display: flex;
+	padding: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.other p {
+	font-weight: 500;
+	font-size: 15px;
+	color: gray;
+	margin-left: 20px;
+}
+
+.dashboard p {
+    font-weight: 500;
+	color: white;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.logo{
+    padding: 1rem;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #239b9f;
+    border-right: 1px solid #d4d4d4;
+    margin-bottom: 2rem;
+}
+.sidenavContainerColor{
+    height: 100vh;
+    background: #f6f3f3;
+}
+.headerContainer{
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: #f6f3f3;
+}
+.headerContainer ul li{
+    cursor: pointer;
+}
+
+#allUserTable thead{
+    background: #eeeeee;
+
+}
+.table td{
+    padding: 0 !important;
+}
+.page-link{
+    color: gray !important;
+}
+.adduserPop{
+    width: 330px;
+    background: #239b9f;
+    padding: 1rem;
+    border-radius: 12px;
+  
+    margin: auto;
+    margin-top: 13em;
+}
+.containerPopup{
+    width: 100%;
+    height: 100vh;
+    /* position: absolute; */
+    background: #ffffff33;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#addpostpopup , #editpostpopup{
+    display: none;
+}
+.btn-primary{
+    background-color: transparent !important;
+    border: none !important;
+    color: gray !important;
+}
